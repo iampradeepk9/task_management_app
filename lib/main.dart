@@ -1,14 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'database/firebase_api_notification.dart';
 import 'views/home_screen.dart';
 import 'views/create_task_screen.dart';
 import 'views/edit_task_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  await FirebaseApi().initNotification();
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   final GetStorage box = GetStorage();
   @override

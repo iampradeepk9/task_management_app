@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151971695354",
+    "project_id": "pradeeppushnotification",
+    "storage_bucket": "pradeeppushnotification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151971695354:android:2ec8bcf060ce004c8d9743",
+        "android_client_info": {
+          "package_name": "com.example.task_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCld8mJ5FftcYbxjWSbkLll7ae7cXZu1yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
